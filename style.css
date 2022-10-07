@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg");
+
+    background-color: #fff;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Peralta', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    margin-top: 5rem;
+    text-align: center;
+    color: #fff;
+
+    font-size: 4rem;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img-container{
+    max-width: 25rem;  
+    display: flex;
+    margin: 1rem;
+}
+
+#container{
+    margin: 1rem;
+    background: rgb(255, 255, 255, 0.473);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgb(209, 213, 219, 0.726);
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px; 
+    margin: auto;
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+button{
+    height: 4rem;
+    width: 2.5rem;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+.next{
+    clip-path: polygon(100% 53%, 0 0, 0 100%);
+    background-color: rgb(255, 0, 0);
+}
+
+.next:hover{
+    background-color: rgb(238, 54, 54);
+}
+
+.preview{
+    clip-path: polygon(100% 100%, 100% 0, 0 54%);
+    background-color: rgb(0, 255, 0);
+}
+
+.preview:hover{
+    background-color: rgb(58, 233, 58);
+}
+
+.data-api{
+    color: green;
+}
+.rick{
+    height: 15rem;
+    width: 8rem;
+    position: absolute;
+    bottom: 0;
+    left: 10rem;
+}
+.morty{
+    height: 15rem;
+    width: 8rem;
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+}
+.text-cont-title{
+    width: 10rem;
+
+}
